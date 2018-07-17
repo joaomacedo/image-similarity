@@ -31,12 +31,15 @@ Instruções para instalação do docker para CPU em https://docs.docker.com/doc
 Se desejar utilizar uma GPU (sugiro, no mínimo, usar uma GTX 1050 Ti e, preferencialmente, uma GTX 1080 Ti), a versão do docker deve ser para GPU - consulte o passo 10.
 
 
-2. Obter imagem
----------------
-Na linha de comando, digite:
+2. Obter programa e container docker
+------------------------------------
 
+Obter programa:
+* fazer download em https://github.com/joaomacedo/image-similarity
+  (neste tutorial supomos que os arquivos do programa foram colocadas num diretório com nome report_similaridade)
+
+Para obter o container docker, na linha de comando digite:
 > docker pull ufoym/deepo:all-jupyter-py36-cpu
-
 
 O container docker contém o python e todas as bibliotecas necessárias.
 
